@@ -12,7 +12,8 @@ packages= [
     "matplotlib",
     "termcolor",
     "colored",
-    "statsbombpy"
+    "statsbombpy",
+    "seaborn"
 ]
 
 for package in packages:
