@@ -1,28 +1,3 @@
-import subprocess
-import sys
-
-def install(package):
-    subprocess.check_call([sys.executable,'-m','pip','install',package])
-
-packages= [
-    "streamlit",
-    "pandas",
-    "mplsoccer",
-    "numpy",
-    "matplotlib",
-    "termcolor",
-    "colored",
-    "statsbombpy",
-    "seaborn"
-]
-
-for package in packages:
-    try:
-        install(package)
-    except subprocess.CalledProcessError as e:
-        st.write(f"Failed to install {package}: {e}")
-
-
 #Libraries 
 from statsbombpy import sb
 import pandas as pd
