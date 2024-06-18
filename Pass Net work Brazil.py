@@ -78,7 +78,7 @@ firstsub=subs[ 'minute'].min()
 successful=successful[successful['minute']<firstsub]
 
 #Line-up Data Frame
-lineup=sb.lineups(match_id=3857258)["Brazil"]
+lineup=sb.lineups(match_id=selected_match_id)["Brazil"]
 jersey_data=lineup[['player_nickname','player_id','jersey_number']]
 st.subheader("Brazil Line-up")
 st.dataframe(jersey_data)
