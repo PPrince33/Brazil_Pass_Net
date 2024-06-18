@@ -1,0 +1,7 @@
+streamlit
+pandas
+mplsoccer
+numpy
+matplotlib
+termcolor
+colored
