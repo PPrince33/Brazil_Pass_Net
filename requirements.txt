@@ -6,3 +6,4 @@ matplotlib
 termcolor
 colored
 seaborn
+statsbombpy
